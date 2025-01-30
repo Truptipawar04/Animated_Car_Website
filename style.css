@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+background-color: black;
+}
+
+#hero{
+
+    height: 100%;
+    width: 100%;
+   background-color:black;
+}
+
+#nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    color: white;
+    font-size: 3vw;
+}
+
+#logo h3{
+
+    font-family: monospace;
+    font-weight: 500s;
+}
+
+
+.nav-item{
+    display: flex;
+    gap:3vw;
+}
+
+.nav-item a{
+
+    text-decoration:none;
+    font-size: 2vw;
+    color: white;
+    padding-right: 1vw;
+}
+
+hr{
+    margin-top: 5vw;
+    margin-right: 6vw;
+    margin-left: 3vw;
+}
+.main{
+
+   height:10vw;
+   width: 30vw;
+   position: relative;
+   top: 10vw;
+   left: 10vw;
+}
+
+.main h2{
+    color: white;
+    font-size: 7.6vw;  
+}
+
+.main img{
+
+    height:18vw;
+    position: absolute;
+    left: 12vw;
+    margin-bottom: 40vw;
+    opacity: 0;
+    border-radius: 7vw;
+    
+    
+}
+.main h3{
+
+    color: aliceblue;
+    font-size: 7.4vw;
+    padding-left: 15vw;
+}
+
+.fpage1{
+
+    color: aliceblue;
+    display: flex;
+}
+
+.fpage1 h5{
+
+    margin-top: 30vw;
+    font-size: 1.4vw;
+    padding-left: .6vw;
+}
+
+
+.contains{
+    height:100vh;
+    background-color: black;
+}
+
+.contains img{
+    margin-top: 7vw;
+    height:30vh;
+    width: 22vw;
+    padding-left: 2vw;
+    border: none;
+  
+}
+
+.contains h2{
+text-align: center;
+    font-size: 6vw;
+    color: aliceblue;
+    padding-top: 8vw;
+}
+
+.info{
+    height: 70vh;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.info p{
+    padding-top: 6vw;
+    font-size: 2vw;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;  
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    padding: 1vw;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media(max-width:600px){
+
+    .nav-item a{
+        font-size: 2.8vw;
+    }
+    .contains{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contains img{
+        margin-left: 35vw;
+    }
+
+    .fpage1 h5{
+        opacity: 0;
+    }
+    .info p{
+
+        padding-top: 18vw;
+        font-size: 2.7vw;
+    }
+
+    footer a,h4{
+
+        font-size: 1.9vw;
+    }
+
+    
+
+    
+
+}
