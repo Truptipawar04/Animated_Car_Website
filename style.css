@@ -150,8 +150,34 @@ footer a{
 
 @media(max-width:600px){
 
+    .main{
+        height: 80vh;
+    }
+    .main h2{
+        font-size: 13vw;
+        position: relative;
+        top: 30vw;
+    }
+
+    .main h3{
+        font-size: 11vw;
+        position: relative;
+        top: 33vw;
+    }
+
+    .main img{
+        position: absolute;
+        top:29vw;
+        left: 40vw;
+    }
+
+    #logo h3{
+        font-size: 4.7vw;
+        padding-top: 3vw;
+    }
     .nav-item a{
-        font-size: 2.8vw;
+        font-size: 4.4vw;
+        padding-top: 3vw;
     }
     .contains{
         display: flex;
@@ -167,14 +193,21 @@ footer a{
     }
     .info p{
 
-        padding-top: 18vw;
-        font-size: 2.7vw;
+        padding-top: 20vw;
+        font-size: 3vw;
     }
 
-    footer a,h4{
+    footer a{
 
-        font-size: 1.9vw;
+        font-size: 4vw;
     }
+
+    footer h4{
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+
+
 
     
 
