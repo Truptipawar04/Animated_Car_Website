@@ -13,10 +13,6 @@ gsap.from(".nav-item a",{
     delay:1
 })
 
-
-
-
-
 gsap.from(".main h2",{
     x:100,
     opacity:0,
