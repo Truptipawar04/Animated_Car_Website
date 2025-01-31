@@ -133,7 +133,7 @@ gsap.from(" .contains .img4",{
 
       var photo2=document.querySelector(".contains .img2")
       photo2.addEventListener("click",()=>{
-
+              
         gsap.from(".contains .img2",{
 
             scale:2,

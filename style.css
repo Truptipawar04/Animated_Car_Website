@@ -185,8 +185,10 @@ footer a {
     }
 
     .nav-item a {
-        font-size: 5.7vw;
+        font-size: 3.6vw;
         padding-top: 3vw;
+        padding: 3.5vw;
+        font-weight: 600;
     }
 
     .contains {
