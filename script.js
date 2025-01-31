@@ -161,6 +161,12 @@ gsap.from(" .contains .img4",{
         })
       })
 
-
+    gsap.from("footer a",{
+        y:100,
+        opacity:0,
+        duration:1,
+        delay:2,
+        scrollTrigger:("footer a")
+    })
 
 
