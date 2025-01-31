@@ -125,8 +125,45 @@ gsap.from(" .contains .img4",{
     scrollTrigger:(" #product .img4")
 })
 
+ var photo1=document.querySelector(".contains .img1")
+      photo1.addEventListener("click",()=>{
 
+        gsap.from(".contains .img1",{
 
+            scale:2,
+            rotate:10
+        })
+      })
+
+      var photo2=document.querySelector(".contains .img2")
+      photo2.addEventListener("click",()=>{
+
+        gsap.from(".contains .img2",{
+
+            scale:2,
+            rotate:-50
+        })
+      })
+
+      var photo3=document.querySelector(".contains .img3")
+      photo3.addEventListener("click",()=>{
+
+        gsap.from(".contains .img3",{
+
+            scale:2,
+            rotate:50
+        })
+      })
+
+      var photo4=document.querySelector(".contains .img4")
+      photo4.addEventListener("click",()=>{
+
+        gsap.from(".contains .img4",{
+
+            scale:2,
+            rotate:10
+        })
+      })
 
 
 
