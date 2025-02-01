@@ -169,4 +169,12 @@ gsap.from(" .contains .img4",{
         scrollTrigger:("footer a")
     })
 
+    $(document).ready(()=>{
+        $(".ri-list-check").click(()=>{
+            $("a").slideToggle(1200);
+        });
+       
+    })
+
+
 
