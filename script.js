@@ -13,6 +13,12 @@ gsap.from(".nav-item a",{
     delay:1
 })
 
+gsap.from("nav-item .ri-list-check",{
+    y:100,
+    opacity:0,
+    duration:1,
+    delay:1,
+})
 gsap.from(".main h2",{
     x:100,
     opacity:0,
@@ -169,12 +175,16 @@ gsap.from(" .contains .img4",{
         scrollTrigger:("footer a")
     })
 
+    
+
     $(document).ready(()=>{
         $(".ri-list-check").click(()=>{
             $("a").slideToggle(1200);
         });
        
     })
+
+
 
 
 

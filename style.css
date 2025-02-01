@@ -42,24 +42,13 @@ body {
     display: flex;
     gap: 3vw;
 }
-.nav-item i{
-    color: aliceblue;
-    margin-right: 3vw;
-    margin-top: 1vw;
-    font-size: 3vw;
-}
 
-.nav-item button{
-    background-color: black;
-    border: none;
-}
 .nav-item a {
 
     text-decoration: none;
     font-size: 2vw;
     color: white;
     padding-right: 1vw;
-    display: none;
 }
 
 hr {
@@ -200,6 +189,11 @@ footer a {
         padding-top: 3vw;
         padding: 3.5vw;
         font-weight: 600;
+    }
+
+    .nav-item button{
+        background-color: black;
+        border: none;
     }
 
     .nav-item i{
